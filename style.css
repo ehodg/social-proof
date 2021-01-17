@@ -1,0 +1,138 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-bio {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.intro-title {
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 0.8;
+}
+
+.intro-info {
+    color: lightgray;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.social-ratings {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+}
+
+.rating {
+    background-color: hsl(300, 24%, 96%);
+    background-size: 100% 200px;
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    align-self: flex-end;
+    margin: 5px;
+    width: 350px;
+    height: 30px;
+    border-radius: 4%;
+    
+}
+
+#r1{
+    margin-right: 60px;
+}
+
+#r2 {
+    margin-right: 40px;
+}
+
+#r3 {
+    margin-right: 20px;
+}
+
+.social-testimony {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    offset: 5px;
+}
+
+.test-one {
+    background-color: hsl(300, 43%, 22%);
+    flex-flow: column wrap;
+    justify-content: space-between;
+    border-radius: 3%;
+    align-content: space-between;
+    margin: 15px;
+    height: 230px;
+    width: 270px;
+}
+
+#t1 {
+    margin-top: 20px;
+}
+
+#t2 {
+    margin-top: 40px;
+}
+
+#t3 {
+    margin-top: 60px;
+}
+
+.test-info > img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.test-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10px;
+    
+}
+
+.test-info-name {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    align-items: flex-start;
+}
+
+.name {
+    color: white;
+    padding: 10px;
+}
+
+.job {
+    color: hsl(333, 80%, 67%);
+}
+
+.discription {
+    color: white;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
